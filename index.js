@@ -4,12 +4,14 @@ var games = {"advancewars":"Advance Wars","advancewars2":"Advance Wars 2","aladd
 var root = document.getElementById("root");
 games.entries
   ?games.entries().forEach(x => {
+  console.log(x);
   let a = document.createElement("a");
   a.href = "https://mkgamesdev.github.io/MKGBA2.0/launcher.html#" + x[0];
   a.innerHTML = a[1];
   root.appendChild(a);
 })
   :Object.entries(games).forEach(x => {
+  console.log(x);
   let a = document.createElement("a");
   a.href = "https://mkgamesdev.github.io/MKGBA2.0/launcher.html#" + x[0];
   a.innerHTML = a[1];
