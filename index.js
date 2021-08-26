@@ -7,7 +7,7 @@ games.entries
   console.log(x);
   let a = document.createElement("a");
   a.href = "https://mkgamesdev.github.io/MKGBA2.0/launcher.html#" + x[0];
-  a.innerHtml = a[1];
+  a.innerHTML = a[1];
   let b = document.createElement("br");
   root.appendChild(b);
   root.appendChild(a);
@@ -16,7 +16,7 @@ games.entries
   console.log(x);
   let a = document.createElement("a");
   a.href = "https://mkgamesdev.github.io/MKGBA2.0/launcher.html#" + x[0];
-  a.innerHtml = a[1];
+  a.innerHTML = a[1];
   let b = document.createElement("br");
   root.appendChild(b);
   root.appendChild(a);
